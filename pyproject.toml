@@ -1,0 +1,20 @@
+[project]
+name = "googlyai"
+version = "0.1.0"
+description = "Map-agent based AI QA system for cricket data"
+authors = [{ name = "Prajwal Swaroop Srivastava" }]
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "pandas",
+    "duckdb",
+    "langgraph",
+    "langchain",
+    "pydantic",
+    "fastapi",
+    "uvicorn",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
