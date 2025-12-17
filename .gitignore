@@ -24,4 +24,5 @@ data/embeddings/*
 
 # DuckDB
 data/duckdb/
+data/raw
 *.duckdb
