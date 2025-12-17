@@ -20,3 +20,8 @@ data/embeddings/*
 # IDE
 .vscode/
 .idea/
+
+
+# DuckDB
+data/duckdb/
+*.duckdb
